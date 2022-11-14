@@ -1,0 +1,62 @@
+.login__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.login__box img {
+    width: 200px;
+}
+.main {
+    text-align: center;
+}
+.main p {
+    font-size: 22px;
+}
+
+.input__area {
+    margin: 10px;
+}
+.input__area input {
+    width: 320px;
+    height: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsla(210, 14%, 97%, 1);
+    transition: 1s ease linear;
+}
+.input__area input:focus {
+    outline: 2px solid rgb(211, 212, 213);
+}
+.input__area select{
+    width: 350px;
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsla(210, 14%, 97%, 1);
+}
+.input__area select:focus{
+    outline: none;
+}
+
+.button__area {
+    margin-top: 20px;
+}
+.auth__button {
+    width: 350px;
+    height: 40px;
+    margin: 10px 0 15px 0;
+    background-color: #15CE73;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+.direct__link{
+    color: #000;
+    font-size: 17px;
+}

@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: inherit;
+    padding: 15px;
+}
+
+.navbar-brand {
+    width: 60%;
+}
+
+.login-button {
+    background-color: #15CE73;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}

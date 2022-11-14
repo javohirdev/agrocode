@@ -1,0 +1,10 @@
+.profile p{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+}
+.profile p img{
+    width: 40px;
+    margin-left: 10px;
+}
